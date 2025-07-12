@@ -1,5 +1,14 @@
-{% extends 'base.html' %}
-{% block content %}
-    <h2>Welcome to Davis PC Repair</h2>
-    <p>Reliable, professional on-site service tailored to your needs.</p>
-{% endblock %}
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='logo1.png') }}" alt="Davis PC Repair Logo" class="logo">
+        <h1>DAVIS PC REPAIR</h1>
+        <p class="tagline">Think Outside The Box</p>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+        <h2>Welcome to Davis PC Repair</h2>
+        <p>Reliable, professional on-site service tailored to your needs.</p>
+    </div>
+</body>
