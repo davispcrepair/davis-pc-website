@@ -1,0 +1,19 @@
+body {
+    background: radial-gradient(circle at center, #001a33, #000000);
+    color: #00ccff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px;
+}
+nav a {
+    color: #00ccff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
